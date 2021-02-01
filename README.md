@@ -1,2 +1,2 @@
-# Matemásticas computaciones - Juan Eduardo Quintero Palacio
+# Matemáticas computaciones - Juan Eduardo Quintero Palacio
 Clase matemáticas computaciones UNAB
