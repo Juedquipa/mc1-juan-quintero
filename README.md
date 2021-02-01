@@ -1,2 +1,2 @@
-# mc1-juan-quintero
+# Matemásticas computaciones - Juan Eduardo Quintero Palacio
 Clase matemáticas computaciones UNAB
