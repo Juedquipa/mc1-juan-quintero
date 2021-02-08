@@ -36,13 +36,15 @@ def numero_primo(n):
                 return False
         return True             
 
+print('-' * 20 + '\n')
+
 # Conjunto A
 conjunto_a = set()
 
 for i in range(6, 25):
     conjunto_a.add(i)
 
-print(f'Conjunto A: {conjunto_a}\n\n\n')
+print(f'Conjunto A: {conjunto_a}\n\n')
 
 # Conjunto B
 conjunto_b = set()
@@ -51,14 +53,14 @@ for i in range(1, 31):
     if(i%2==1):
         conjunto_b.add(i)
 
-print(f'Conjunto B: {conjunto_b}\n\n\n')
+print(f'Conjunto B: {conjunto_b}\n\n')
 
 # Conjunto C
 conjunto_c = set()
 
 conjunto_c = {0, 3, 6, 9, 11, 15, 18, 20}
 
-print(f'Conjunto C: {conjunto_c}\n\n\n')
+print(f'Conjunto C: {conjunto_c}\n\n')
 
 # Conjunto D
 conjunto_d = set()
@@ -68,16 +70,21 @@ for i in range(1, 40):
     if(aux):
         conjunto_d.add(i)
 
-print(f'Conjunto D: {conjunto_d}\n\n\n')
+print(f'Conjunto D: {conjunto_d}\n\n')
+
+#Operaciones propuestas
+print('-' * 20 + '\n')
 
 # (A diferencia simétrica B) n C
-print(f'(A diferencia simétrica B) n C: {interseccion(diferencia_simetrica(conjunto_a, conjunto_b), conjunto_c)}')
+print(f'(A diferencia simétrica B) n C: {interseccion(diferencia_simetrica(conjunto_a, conjunto_b), conjunto_c)}\n')
 
 # (A diferencia C) u B
-print(f'(A diferencia C) u B: {union(diferencia(conjunto_a, conjunto_c), conjunto_b)}')
+print(f'(A diferencia C) u B: {union(diferencia(conjunto_a, conjunto_c), conjunto_b)}\n')
 
 # A diferencia simétrica (C u D)
-print(f'A diferencia simétrica (C u D): {diferencia_simetrica(conjunto_a, union(conjunto_c, conjunto_d))}')
+print(f'A diferencia simétrica (C u D): {diferencia_simetrica(conjunto_a, union(conjunto_c, conjunto_d))}\n')
 
 # (C - A) diferencia simétrica (B n D)
-print(f'(C - A) diferencia simétrica (B n D): {diferencia_simetrica(diferencia(conjunto_c, conjunto_a), interseccion(conjunto_b, conjunto_d))}')
+print(f'(C - A) diferencia simétrica (B n D): {diferencia_simetrica(diferencia(conjunto_c, conjunto_a), interseccion(conjunto_b, conjunto_d))}\n')
+
+print('-' * 20 + '\n')
