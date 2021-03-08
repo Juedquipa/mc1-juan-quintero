@@ -1,0 +1,1 @@
+# En el punto 1 y 3 no hay cambio, en el único que si hay es en el punto 2, sección B
