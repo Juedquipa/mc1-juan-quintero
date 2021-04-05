@@ -12,7 +12,7 @@ def vectorialProduct(vector1, vector2):
 
 
 # Definición de varialbes y entrada de datos
-aux1 = int(input('Escriba el tamaño n de la matriz: '))
+aux1 = int(input('Escriba el tamaño n de los vectores: '))
 vector1 = []
 vector2 = []
 
