@@ -1,5 +1,5 @@
 # Función del producto vectorial
-def productoVectorial(vector1, vector2):
+def vectorialProduct(vector1, vector2):
     prod = 0
     # Comprobación
     if(len(vector1) == len(vector2)):
@@ -26,4 +26,4 @@ for n in range(aux1):
     aux2 = int(input(f'Digite el número en la posición {n+1} del vector 2: '))
     vector2.append(aux2)
 
-productoVectorial(vector1, vector2)
+vectorialProduct(vector1, vector2)
