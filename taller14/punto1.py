@@ -95,5 +95,10 @@ matrix = [[0, 1, 1, 3], [4, 4, 7, 26], [0, 1, 2, 12]]
 # Mostrar la matriz inicial
 print(f'La matriz inicial es: \n{np.asmatrix(matrix)}')
 
+# Resolver ecuación
 gaussJordan(matrix)
-print(f'\n\n\n\nLa matriz resuelta es: \n{np.asmatrix(matrix)}')
+print(f'\n\n\n\nLa matriz resuelta es: \n{np.asmatrix(matrix)}\n')
+
+# Definir igualdades
+for row in range(len(matrix)):
+    print(f'X{row} = {matrix[row][3]}')
