@@ -96,3 +96,4 @@ matrix = [[0, 1, 1, 3], [4, 4, 7, 26], [0, 1, 2, 12]]
 print(f'La matriz inicial es: \n{np.asmatrix(matrix)}')
 
 gaussJordan(matrix)
+print(f'\n\n\n\nLa matriz resuelta es: \n{np.asmatrix(matrix)}')
