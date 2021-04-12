@@ -1,7 +1,7 @@
 import numpy as np
 import copy
 
-## Resolver por eliminación de Gauss Jordan la matriz identidad
+## Resolver por eliminación de Gauss Jordan la matriz inversa
 
 # Hacer la diagonal principal y la parte de abajo de la matriz identidad
 def gaussJordan(matrix):
@@ -111,6 +111,7 @@ def concatenateMatrix(matrix, identity):
             matrix[n].append(identity[n][m])
     return matrix
 
+# Método para imprimir la matriz inversa (También sirve para retornarla) 
 def printInverse(matrix):
     n = len(matrix)
     m = len(matrix[0])/2
